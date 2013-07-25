@@ -1,0 +1,2 @@
+Ask first yourself: Is your file an internal component of you application? (that usually implies that it's packed inside you jar, or war if a web-app; typically, it's some configuration file or static resource, read-only).
+od for doing this. And Eclipse (in the normal setup) assumes src/ is to be in the root of your classpath, so that, after compiling, it copies everything to your output directory ( bin/ ), the java files in compiled form ( .class ), the rest as is.

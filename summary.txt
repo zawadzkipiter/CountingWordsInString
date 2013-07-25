@@ -1,0 +1,1 @@
+File tekst.txt have :83 words!
